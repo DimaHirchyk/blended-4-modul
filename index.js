@@ -39,3 +39,27 @@ btn.addEventListener("click", () => {
 // btn.addEventListener("click", () => {
 //   allParagraph.forEach((el, ind) => (el.textContent = ind + 1));
 // });
+
+// task 5
+
+// const input = document.querySelector("#test");
+// const output = document.querySelector("#result");
+// const btn = document.querySelector("button");
+// btn.addEventListener("click", () => {
+//   if (isNaN(input.value)) {
+//     return alert("Ввели не число");
+//   }
+//   output.value = input.value ** 2;
+// });
+
+// task 6
+// const tittle = document.querySelector("h1");
+// const list = document.createElement("ul");
+// let input = prompt("Введіть пункт");
+// while (input !== null) {
+//   const item = document.createElement("li");
+//   item.textContent = input;
+//   list.appendChild(item);
+//   input = prompt("Введіть пункт");
+// }
+// tittle.after(list);
