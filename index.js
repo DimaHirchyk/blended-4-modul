@@ -63,3 +63,30 @@ btn.addEventListener("click", () => {
 //   input = prompt("Введіть пункт");
 // }
 // tittle.after(list);
+
+// task 7
+// const linksArr = document.querySelectorAll('a')
+// linksArr.forEach(link => {
+//   link.addEventListener('mouseover', (e) => {
+//     e.target.title = e.target.textContent;
+//   })
+// })
+
+// task 8
+// const spansArr = document.querySelectorAll('span')
+
+// spansArr.forEach(span => {
+//   span.addEventListener('click', setRed)
+// })
+
+// function setRed(e) {
+//   e.target.style.backgroundColor = 'red';
+//   e.target.addEventListener('click', setGreen);
+//   e.target.removeEventListener('click', setRed);
+// }
+
+// function setGreen(e) {
+//   e.target.style.backgroundColor = 'green';
+//   e.target.addEventListener('click', setRed);
+//   e.target.removeEventListener('click', setGreen);
+// }
